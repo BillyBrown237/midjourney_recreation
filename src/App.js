@@ -1,11 +1,11 @@
 import React from "react";
 import "./App.css";
-import VideoCard from "./components/VideoCard";
+import Feed from "./components/Feed";
 
 function App() {
   return (
     <div className="App">
-      <VideoCard />
+      <Feed />
     </div>
   );
 }
