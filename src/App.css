@@ -7,11 +7,6 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
-  }
-}
 
 .App-header {
   min-height: 100vh;
@@ -26,14 +21,26 @@
   color: rgb(112, 76, 182);
 }
 
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
+.video_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #2B2F53;
+  color: white;
+}
+
+.card_description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.video_title {
+  text-align: left;
+}
+ 
+.video_stamp{
+  font-size: 13px;
+  color:  #FFFFFF99;
+  text-align: left;
 }
