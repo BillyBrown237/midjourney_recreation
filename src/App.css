@@ -1,5 +1,13 @@
+#root {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
 .App {
   text-align: center;
+  background-color: #2B2F53;
 }
 
 .App-logo {
@@ -51,5 +59,43 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  background-color: #2B2F53;
+}
+
+.searchbar {
+  margin: 10px;
+}
+
+.search {
+  padding: 10px 0;
+  border: 1px solid #EBEBF599;
+  border-radius: 50px;
+  display: inline;
+  background-color: #363a5c;
+  color: white;
+
+}
+
+.search input {
+  background-color: inherit;
+  width: 44%;
+}
+
+.search input:focus {
+  border-color: transparent;
+}
+
+::placeholder {
+  font-size: 1em;
+  color: #FFF;
+  padding: 5px;
+}
+
+.searchbar img {
+  display: inline;
+  padding: 10px;
+  opacity: 1;
+}
+ 
+.searchbar span {
+  width: 150px;
 }
