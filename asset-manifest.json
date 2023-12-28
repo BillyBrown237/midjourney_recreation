@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/midjourney_recreation/static/css/main.709321b9.css",
+    "main.js": "/midjourney_recreation/static/js/main.69208b6d.js",
+    "static/js/787.60bbb373.chunk.js": "/midjourney_recreation/static/js/787.60bbb373.chunk.js",
+    "static/media/videoThumbnail3.jpg": "/midjourney_recreation/static/media/videoThumbnail3.5d39645d8af5fd7dad53.jpg",
+    "static/media/videoThumbnail2.jpg": "/midjourney_recreation/static/media/videoThumbnail2.37147af5fca4c9575a78.jpg",
+    "static/media/SplineLogo.svg": "/midjourney_recreation/static/media/SplineLogo.d517d4b0fced68e3925b9067548ffcde.svg",
+    "static/media/videoThumbnail1.jpg": "/midjourney_recreation/static/media/videoThumbnail1.eb7b5ee98b8da1c09d67.jpg",
+    "static/media/DesignCodeLogo.svg": "/midjourney_recreation/static/media/DesignCodeLogo.49453744d4143d04d700e0494d2565e2.svg",
+    "static/media/FigmaLogo.svg": "/midjourney_recreation/static/media/FigmaLogo.8ddd4fa2b4870c33fba239dc2274805f.svg",
+    "static/media/SketchLogo.svg": "/midjourney_recreation/static/media/SketchLogo.d18ffaf6269cb8f1310fa043a72a1706.svg",
+    "index.html": "/midjourney_recreation/index.html",
+    "main.709321b9.css.map": "/midjourney_recreation/static/css/main.709321b9.css.map",
+    "main.69208b6d.js.map": "/midjourney_recreation/static/js/main.69208b6d.js.map",
+    "787.60bbb373.chunk.js.map": "/midjourney_recreation/static/js/787.60bbb373.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.709321b9.css",
+    "static/js/main.69208b6d.js"
+  ]
+}
