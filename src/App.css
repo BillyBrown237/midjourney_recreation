@@ -25,8 +25,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #2B2F53;
   color: white;
+  max-width: 300px;
+  row-gap: 10px;
 }
 
 .card_description {
@@ -43,4 +44,12 @@
   font-size: 13px;
   color:  #FFFFFF99;
   text-align: left;
+}
+
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  background-color: #2B2F53;
 }
