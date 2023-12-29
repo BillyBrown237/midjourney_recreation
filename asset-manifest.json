@@ -1,22 +1,39 @@
 {
   "files": {
-    "main.css": "/midjourney_recreation/static/css/main.709321b9.css",
-    "main.js": "/midjourney_recreation/static/js/main.69208b6d.js",
+    "main.css": "/midjourney_recreation/static/css/main.41f8edf5.css",
+    "main.js": "/midjourney_recreation/static/js/main.0b7dbf52.js",
     "static/js/787.60bbb373.chunk.js": "/midjourney_recreation/static/js/787.60bbb373.chunk.js",
     "static/media/videoThumbnail3.jpg": "/midjourney_recreation/static/media/videoThumbnail3.5d39645d8af5fd7dad53.jpg",
     "static/media/videoThumbnail2.jpg": "/midjourney_recreation/static/media/videoThumbnail2.37147af5fca4c9575a78.jpg",
     "static/media/SplineLogo.svg": "/midjourney_recreation/static/media/SplineLogo.d517d4b0fced68e3925b9067548ffcde.svg",
     "static/media/videoThumbnail1.jpg": "/midjourney_recreation/static/media/videoThumbnail1.eb7b5ee98b8da1c09d67.jpg",
+    "static/media/Papaya.svg": "/midjourney_recreation/static/media/Papaya.a95d897ef25137871d9df2275b1c0d64.svg",
+    "static/media/Mic.svg": "/midjourney_recreation/static/media/Mic.b1fb5974a40c0d8921ab00a0a0d73f22.svg",
+    "static/media/hamburger.svg": "/midjourney_recreation/static/media/hamburger.bae59adb9a024673ac0e03704da158b0.svg",
+    "static/media/home_icon.svg": "/midjourney_recreation/static/media/home_icon.2e382ce312289ca6e035ac7ab29f0ba2.svg",
+    "static/media/Bell.svg": "/midjourney_recreation/static/media/Bell.bc7e08f911cb7a331701b1448bef5c1b.svg",
+    "static/media/papaya_music_icon.svg": "/midjourney_recreation/static/media/papaya_music_icon.8a1fd682533b517acc2833d82d477bdb.svg",
+    "static/media/subscription_icon.svg": "/midjourney_recreation/static/media/subscription_icon.0ebf313f1a55c162dafc5f7bdf5e51b8.svg",
     "static/media/DesignCodeLogo.svg": "/midjourney_recreation/static/media/DesignCodeLogo.49453744d4143d04d700e0494d2565e2.svg",
+    "static/media/library_icon.svg": "/midjourney_recreation/static/media/library_icon.3eb173308e684e0181cb12f058423e87.svg",
     "static/media/FigmaLogo.svg": "/midjourney_recreation/static/media/FigmaLogo.8ddd4fa2b4870c33fba239dc2274805f.svg",
+    "static/media/history_icon.svg": "/midjourney_recreation/static/media/history_icon.a4457b3280ec819f53fed32c41ad58b5.svg",
+    "static/media/Camcorder.svg": "/midjourney_recreation/static/media/Camcorder.c2167fd0eb8ef0d8aa1edda6dd5bcd50.svg",
     "static/media/SketchLogo.svg": "/midjourney_recreation/static/media/SketchLogo.d18ffaf6269cb8f1310fa043a72a1706.svg",
+    "static/media/download_icon.svg": "/midjourney_recreation/static/media/download_icon.a1acf985cf2aa8ec7b40109ecbdc54e5.svg",
+    "static/media/watch_later_icon.svg": "/midjourney_recreation/static/media/watch_later_icon.8a46af205f1284f14996954b5013dc76.svg",
+    "static/media/video_icon.svg": "/midjourney_recreation/static/media/video_icon.8748abfa9217b0d708fae0cf867dfca1.svg",
     "index.html": "/midjourney_recreation/index.html",
-    "main.709321b9.css.map": "/midjourney_recreation/static/css/main.709321b9.css.map",
-    "main.69208b6d.js.map": "/midjourney_recreation/static/js/main.69208b6d.js.map",
+    "static/media/Search.svg": "/midjourney_recreation/static/media/Search.a8b82c97a0c645e4c94ba26c714a6d34.svg",
+    "static/media/chevron_down.svg": "/midjourney_recreation/static/media/chevron_down.15e8469098a95b092daffc9a31f77e30.svg",
+    "static/media/UserInitial.svg": "/midjourney_recreation/static/media/UserInitial.44786f18d04648d874f21d9e762d634c.svg",
+    "static/media/Browser Button.svg": "/midjourney_recreation/static/media/Browser Button.210fdb23399b6e52c44a69dbb8ab7994.svg",
+    "main.41f8edf5.css.map": "/midjourney_recreation/static/css/main.41f8edf5.css.map",
+    "main.0b7dbf52.js.map": "/midjourney_recreation/static/js/main.0b7dbf52.js.map",
     "787.60bbb373.chunk.js.map": "/midjourney_recreation/static/js/787.60bbb373.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.709321b9.css",
-    "static/js/main.69208b6d.js"
+    "static/css/main.41f8edf5.css",
+    "static/js/main.0b7dbf52.js"
   ]
 }
