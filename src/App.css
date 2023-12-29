@@ -8,6 +8,7 @@
 .App {
   text-align: center;
   background-color: #2B2F53;
+  display: flex;
 }
 
 .App-logo {
@@ -59,6 +60,7 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  padding-bottom: 30px;
 }
 
 .searchbar {
@@ -98,4 +100,40 @@
  
 .searchbar span {
   width: 150px;
+}
+
+.sidemenu {
+  background-color: #2E335A;
+  color: #EBEBF599;
+  font-size: 14px;
+}
+
+.sidemenu li {
+  list-style-type: none;
+}
+
+.sidemenu img {
+  display: inline;
+}
+
+.side-menu-section li :hover {
+background:linear-gradient(#8015A7,rgba(97, 54, 144, 0));
+}
+
+.side-menu-section {
+  padding: 10px;
+}
+
+.side-menu-section li {
+  display: flex;
+  margin: 20px 0;
+}
+
+.side-menu-section button {
+  width: 100%;
+  text-align: start;
+}
+
+.browerbutton{
+  margin: 20px auto;
 }
