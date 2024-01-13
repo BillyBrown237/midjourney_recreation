@@ -1,22 +1,27 @@
-import  subscription from '../assets/subscription_icon.svg' ;
-import papayaMusic from '../assets/papaya_music_icon.svg' ;
-import papaya from '../assets/Papaya.svg' ;
-import download from '../assets/download_icon.svg' ;
-import history from '../assets/history_icon.svg' ;
-import library from '../assets/library_icon.svg' ;
-import video_icon from '../assets/video_icon.svg' ;
-import watchLater from '../assets/watch_later_icon.svg' ;
-import DesignCode from '../assets/DesignCodeLogo.svg' ;
-import Figma from '../assets/FigmaLogo.svg'
-import Sketch from '../assets/SketchLogo.svg'
-import Spline from '../assets/SplineLogo.svg'
-import home from '../assets/home_icon.svg' ;
-import browser from '../assets/Browser Button.svg'
-import hamburger from '../assets/hamburger.svg'
-import chevronDown from '../assets/chevron_down.svg'
+import React, { useState } from 'react';
+import browser from '../assets/Browser Button.svg';
+import DesignCode from '../assets/DesignCodeLogo.svg';
+import Figma from '../assets/FigmaLogo.svg';
+import papaya from '../assets/Papaya.svg';
+import Sketch from '../assets/SketchLogo.svg';
+import Spline from '../assets/SplineLogo.svg';
+import chevronDown from '../assets/chevron_down.svg';
+import download from '../assets/download_icon.svg';
+import hamburger from '../assets/hamburger.svg';
+import history from '../assets/history_icon.svg';
+import home from '../assets/home_icon.svg';
+import library from '../assets/library_icon.svg';
+import papayaMusic from '../assets/papaya_music_icon.svg';
+import subscription from '../assets/subscription_icon.svg';
+import video_icon from '../assets/video_icon.svg';
+import watchLater from '../assets/watch_later_icon.svg';
 
 import SideMenuSection from "./SideMenuSection";
 const SideMenu = () => {
+  const [collapsed,setCollapsed] = useState(false)
+   const toggleSidebar =() => {
+      setCollapsed(!collapsed)
+   }
     
     const nav = [
       {
