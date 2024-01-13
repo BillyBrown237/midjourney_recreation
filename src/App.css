@@ -7,7 +7,7 @@
 
 .App {
   text-align: center;
-  background-color: #2B2F53;
+  background-color: #2b2f53;
   display: flex;
 }
 
@@ -15,7 +15,6 @@
   height: 40vmin;
   pointer-events: none;
 }
-
 
 .App-header {
   min-height: 100vh;
@@ -48,19 +47,15 @@
 .video_title {
   text-align: left;
 }
- 
-.video_stamp{
+
+.video_stamp {
   font-size: 13px;
-  color:  #FFFFFF99;
+  color: #ffffff99;
   text-align: left;
 }
 
 .feed {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
-  padding-bottom: 30px;
+  @apply flex flex-row flex-wrap justify-center gap-8 pb-8;
 }
 
 .searchbar {
@@ -68,44 +63,23 @@
 }
 
 .search {
-  padding: 10px 0;
-  border: 1px solid #EBEBF599;
-  border-radius: 50px;
-  display: inline;
-  background-color: #363a5c;
-  color: white;
-
+  @apply inline rounded-[50px] border border-[#ebebf599] bg-[#363a5c] px-0 py-[10px] text-white;
 }
 
 .search input {
-  background-color: inherit;
-  width: 44%;
-}
-
-.search input:focus {
-  border-color: transparent;
-}
-
-::placeholder {
-  font-size: 1em;
-  color: #FFF;
-  padding: 5px;
+  @apply w-[44%] bg-inherit placeholder:p-[5px] placeholder:text-[1rem] placeholder:text-gray-300 focus:outline-none;
 }
 
 .searchbar img {
-  display: inline;
-  padding: 10px;
-  opacity: 1;
+  @apply inline p-2.5 opacity-100;
 }
- 
+
 .searchbar span {
-  width: 150px;
+  @apply ml-10 inline min-w-36;
 }
 
 .sidemenu {
-  background-color: #2E335A;
-  color: #EBEBF599;
-  font-size: 14px;
+  @apply bg-[#2e335a] text-sm text-[#ebebf599];
 }
 
 .sidemenu li {
@@ -113,27 +87,25 @@
 }
 
 .sidemenu img {
-  display: inline;
+  @apply inline p-2.5 opacity-100;
 }
 
 .side-menu-section li :hover {
-background:linear-gradient(#8015A7,rgba(97, 54, 144, 0));
+  background: linear-gradient(#8015a7, rgba(97, 54, 144, 0));
 }
 
 .side-menu-section {
-  padding: 10px;
+  @apply p-2.5;
 }
 
 .side-menu-section li {
-  display: flex;
-  margin: 20px 0;
+  @apply mx-0 my-5 flex;
 }
 
 .side-menu-section button {
-  width: 100%;
-  text-align: start;
+  @apply w-full text-start;
 }
 
-.browerbutton{
-  margin: 20px auto;
+.browerbutton {
+  @apply mx-auto my-4;
 }
